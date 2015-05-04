@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5sp"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/button"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/bulb_white"
+        android:clickable="true"
+        android:cropToPadding="false"
+        android:focusable="true"
+        android:scaleType="fitCenter"
+        android:alpha="0.8"
+        style="@style/WidgetButton" />
+
+</RelativeLayout>
